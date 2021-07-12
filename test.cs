@@ -17,7 +17,7 @@ namespace test1
 
             else if (modeOfStudy == 1)
             {
-                System.Console.WriteLine("How many unit are you taking!?");
+                System.Console.WriteLine("How many unit are you taking?");
                 int unit = Convert.ToInt32(Console.ReadLine());
                 if (unit > 6)
                 System.Console.WriteLine("Too much unit for a PartTime Sudent");
